@@ -8,7 +8,7 @@ import Diary from './pages/Diary';
 import Settings from './pages/Settings';
 import About from './pages/About';
 import ThemeProvider from './context/themeProvider';
-import './styles/themes.css'; // Ensure themes.css is imported globally
+import './styles/themes.css';
 import './App.css';
 
 function App() {

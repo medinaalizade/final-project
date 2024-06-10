@@ -15,7 +15,6 @@ const Diary = () => {
   const [warningMessage, setWarningMessage] = useState('');
 
   useEffect(() => {
-    // Load saved notes from localStorage when the component mounts
     const savedNotes = JSON.parse(localStorage.getItem('notes'));
     if (savedNotes) {
       setNotes(savedNotes);
@@ -23,7 +22,6 @@ const Diary = () => {
   }, []);
 
   useEffect(() => {
-    // Save notes to localStorage whenever the notes state changes
     localStorage.setItem('notes', JSON.stringify(notes));
   }, [notes]);
 
@@ -47,7 +45,7 @@ const Diary = () => {
       setTitle('');
       setDate('');
       setEntry('');
-      setWarningMessage(''); // Reset warning message if save is successful
+      setWarningMessage('');
     } else {
       setWarningMessage('Please fill in all fields.');
     }

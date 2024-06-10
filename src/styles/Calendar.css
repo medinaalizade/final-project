@@ -1,0 +1,142 @@
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.day-calendar-container, .calendar-container {
+  position: relative;
+}
+
+.event-form-container,
+.delete-confirmation-container,
+.warning-container {
+  
+  background-color: var(--background-color);
+  color: var(--text-color);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  width: 400px;
+}
+
+.event-form-container {
+  width: 500px;
+}
+
+.event-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-form input[type="text"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.form-buttons button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-buttons button:hover {
+  background-color: #333;
+}
+
+.delete-confirmation p,
+.warning p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.confirmation-buttons,
+.warning {
+  display: flex;
+  justify-content: center;
+}
+
+.confirmation-buttons button,
+.warning button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.confirmation-buttons button:hover,
+.warning button:hover {
+  background-color: #333;
+}
+
+.warning-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warning {
+  background-color: #ffcccc;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ff0000;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.rbc-month-view .rbc-date-cell,
+.rbc-week-view .rbc-date-cell {
+  color: var(--text-color); 
+}
+
+.rbc-today {
+  background-color: lightgrey; /* Change the background color of today's cell */
+}
+
+.rbc-toolbar button {
+  background-color: var(--background-color); 
+  color: var(--text-color);
+}
+
+.rbc-event {
+  background-color: darkblue !important;
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+
+  .day-calendar-container {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .event-form input[type="text"] {
+    width: 70%;
+  }
+
+  .rbc-event {
+    font-size: 0.9rem;
+  }
+}

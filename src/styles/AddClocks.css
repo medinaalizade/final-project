@@ -1,0 +1,47 @@
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.close-btn {
+  background: #000;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.close-btn:hover {
+  background-color: #cbcaca;
+  color: #000;
+}
+
+.clock {
+  text-align: center;
+}
+
+.clock h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.clock p {
+  font-size: 1.5rem;
+  margin: 0;
+}

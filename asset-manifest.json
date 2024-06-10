@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/final-project/static/css/main.30f61daa.css",
+    "main.js": "/final-project/static/js/main.512b262a.js",
+    "static/media/MainPage.jpg": "/final-project/static/media/MainPage.8499be720a9b11c65562.jpg",
+    "static/media/profile.png": "/final-project/static/media/profile.00c7ee9cfaa28a864c55.png",
+    "static/media/colorchange.jpg": "/final-project/static/media/colorchange.1d532a47b66e611343ba.jpg",
+    "static/media/DiaryPage.jpg": "/final-project/static/media/DiaryPage.d2c862e5cc8fa5f1ae8e.jpg",
+    "static/media/RoomPage.jpg": "/final-project/static/media/RoomPage.8d2b7602fba39d0f107f.jpg",
+    "static/media/fontfamilyImg.jpg": "/final-project/static/media/fontfamilyImg.dba41ec8dea451e4f015.jpg",
+    "static/media/focus.jpg": "/final-project/static/media/focus.d96ab8751f1b6d09f27b.jpg",
+    "static/media/calendar.png": "/final-project/static/media/calendar.7a072409b93217ef1283.png",
+    "index.html": "/final-project/index.html",
+    "main.30f61daa.css.map": "/final-project/static/css/main.30f61daa.css.map",
+    "main.512b262a.js.map": "/final-project/static/js/main.512b262a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30f61daa.css",
+    "static/js/main.512b262a.js"
+  ]
+}
